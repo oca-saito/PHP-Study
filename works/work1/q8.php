@@ -3,7 +3,12 @@
 //80以上: 「優秀です」
 //60以上80未満: 「合格です」
 //60未満: 「不合格です」
-$score = 75;
+$score = 59;
 
-// TODO: ここにコードを追記
-echo $score;
+if ($score >= 80) {
+    echo "優秀です";
+} elseif ($score >= 60 && $score < 80) {
+    echo "合格です";
+} else {
+    echo "不合格です";
+}
