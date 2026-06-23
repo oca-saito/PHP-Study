@@ -6,7 +6,7 @@ for ($i = 0; $i < 10; $i++) {
         //echo "i: $i\n";
         //echo "j: $j\n";
         $a = $j + 1 + 10 * $i;
-        echo $a;
+        echo $a . " ";
     }
     echo "\n";
 }

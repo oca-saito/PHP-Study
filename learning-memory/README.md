@@ -31,7 +31,19 @@
 - `learning-memory/quick-prompts.md`: 毎回短く聞くためのプロンプト例
 - `learning-memory/interaction-log.md`: システム構築以外の学習相談ログ
 - `learning-memory/evaluation-log.md`: 各課題の評価メモ
+- `learning-memory/daily-reports/`: 日次レポートの出力先
 - `docs/learning/evaluation.md`: 評価基準
+- `docs/learning/daily-report.md`: 日次レポート作成手順
+
+## 日次レポート
+
+その日の学習ログ、評価ログ、現在の進捗をまとめる場合は、次を実行します。
+
+```bash
+php scripts/create-daily-report.php YYYY-MM-DD
+```
+
+出力先は `learning-memory/daily-reports/YYYY-MM-DD.md` です。
 
 ## 既存教材の保護
 
